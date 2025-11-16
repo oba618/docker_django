@@ -15,6 +15,7 @@ docker ps
 docker exec -it django /bin/bash
 
 django-admin startproject mysite djangotutorial
+django-admin startapp polls
 
 python manage.py runserver 0.0.0.0:8000
 ```
