@@ -1,0 +1,2 @@
+# To use this file, rename it to .env.
+SRC_PATH = ./src
