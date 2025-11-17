@@ -18,6 +18,13 @@ django-admin startproject mysite djangotutorial
 django-admin startapp polls
 
 python manage.py runserver 0.0.0.0:8000
+
+python manage.py migrate
+python manage.py makemigrations polls
+python manage.py sqlmigrate polls 0001
+python manage.py migrate
+
+python manage.py createsuperuser
 ```
 
 ## Development environment server
