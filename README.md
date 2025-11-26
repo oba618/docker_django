@@ -23,6 +23,8 @@ python manage.py runserver 0.0.0.0:8000
 python manage.py migrate
 python manage.py makemigrations polls
 python manage.py sqlmigrate polls 0001
+
+# migrate
 python manage.py migrate
 
 python manage.py createsuperuser
